@@ -1,38 +1,75 @@
 .App {
-  text-align: center;
+    text-align: center;
+}
+
+table {
+    border-spacing: 0cm;
+}
+
+.App-output {
+    width: 360px;
+    height: 200px;
+    margin: 0 auto;
+    background-color: #B3D8FF;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.App-output_header {
+    display: flex;
+    justify-content: space-between;
 }
 
 .App-logo {
-  height: 40vmin;
-  pointer-events: none;
+    margin-left: 27px;
+    margin-top: 30px;
+    padding-top: 5px;
+    padding-bottom: 5px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.App-setting {
+    margin-right: 23px;
+    margin-top: 32px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.App-output_display {
+    align-self: flex-end;
+    padding-bottom: 24px;
+    padding-right: 28px;
+    color: #4CA5FF;
+    font-family: Oswald;
+    font-size: 60px;
+    font-weight: 400;
 }
 
-.App-link {
-  color: #61dafb;
+.App-input {
+    width: 360px;
+    margin: 0px auto;
+    background-color: #6EB6FF;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.App-input_table {
+    width: 100%;
+}
+
+.App-input_table td {
+    width: 75px;
+    height: 75px;
+    text-align: center;
+    font-size: 24px;
+    color: #FFFFFF;
+    font-family: Nunito Sans;
+    font-size: 35px;
+    font-weight: 400;
+    line-height: 48px;
+    letter-spacing: 0em;
+}
+
+.App-input_table td:hover {
+    background-color: #3d85ce;
+}
+
+.App-input_table td:active {
+    background-color: #316ca7;
 }
