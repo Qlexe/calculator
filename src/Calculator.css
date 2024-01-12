@@ -1,0 +1,115 @@
+@import url("https://fonts.googleapis.com/css?family=Fredoka+One:400");
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:opsz@6..12&family=Oswald&Fredoka+One:400&display=swap");
+
+.Calculator {
+    text-align: center;
+}
+
+table {
+    border-spacing: 0cm;
+}
+
+.Calculator-display {
+    width: 360px;
+    height: 200px;
+    margin: 0 auto;
+    /* background-color: #B3D8FF; */
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.Calculator-display_header {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+
+.Calculator-display_logo {
+    margin-left: 27px;
+    margin-top: 30px;
+    font-family: Fredoka One;
+    font-size: 20px;
+}
+
+.Calculator-setting {
+    /* position: relative; */
+    margin-right: 23px;
+    margin-top: 32px;
+}
+
+.Calculator-setting_button {
+    all: unset;
+    cursor: pointer;
+}
+
+#Calculator-setting_menu {
+    position: absolute;
+    top: 55px;
+    right: 25px;
+    /* Додайте додаткові стилі для меню */
+    background-color: #f1f1f1;
+    border: 1px solid #ccc;
+    /* padding: 5px; */
+    width: 250px;
+}
+
+#Calculator-setting_menu ul {
+    padding-inline-start: 0px;
+}
+
+#Calculator-setting_menu li {
+    cursor: pointer;
+    margin: 10px;
+    list-style-type: none;
+}
+
+#Calculator-setting_menu li:hover {
+    background-color: #00000062;
+}
+
+#Calculator-setting_menu span {
+    padding: 4px 30px;
+    font-family: Nunito Sans;
+}
+
+.Calculator-display_output {
+    align-self: flex-end;
+    padding-bottom: 24px;
+    padding-right: 28px;
+    /* color: #4CA5FF; */
+    font-family: Oswald;
+    font-size: 60px;
+    font-weight: 400;
+}
+
+.Calculator-input {
+    width: 360px;
+    margin: 0px auto;
+    /* background-color: #6EB6FF; */
+}
+
+.Calculator-input_table {
+    width: 100%;
+}
+
+.Calculator-input_table td {
+    width: 75px;
+    height: 75px;
+    text-align: center;
+    font-size: 24px;
+    color: #FFFFFF;
+    font-family: Nunito Sans;
+    font-size: 35px;
+    font-weight: 400;
+    line-height: 48px;
+    letter-spacing: 0em;
+}
+
+/* .Calculator-input_table td:hover {
+    background-color: #3d85ce;
+}
+
+.Calculator-input_table td:active {
+    background-color: #316ca7;
+} */

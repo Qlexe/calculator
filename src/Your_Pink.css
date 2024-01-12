@@ -1,0 +1,25 @@
+
+.Calculator-display {
+    background-color: #FFC2B3;
+}
+
+.Calculator-display_logo {
+    color: #FF8E71;
+}
+
+.Calculator-display_output {
+    color: #FF481A;
+}
+
+.Calculator-input {
+    background-color: #FF8E71;
+}
+
+.Calculator-input_table td:hover {
+    background-color: #d1735c;
+}
+
+.Calculator-input_table td:active {
+    background-color: #a15b4a;
+}
+
